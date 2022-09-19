@@ -445,6 +445,11 @@
       opacity: 1;
       transform: translateX(0);
     }
+
+    .icon-wrap{
+      width: 30px;
+      height: 30px;
+    }
   
     .icon-menu-burger {
       background-image: url(../img/svg/burger.svg);
@@ -453,17 +458,25 @@
       text-align: center;
       fill: red;
     }
-  
-    .icon-menu:hover,
-    .icon-menu:focus {
-      color: #ff7011;
+
+    .icon-menu-cross {
+      background-image: url(../img/svg/cross.svg);
+      background-repeat: no-repeat;
+      align-items: center;
+      text-align: center;
+      fill: red;
     }
   
-    .icon-menu:hover.open,
+    /* .icon-menu:hover,
+    .icon-menu:focus {
+      color: #ff7011;
+    } */
+  
+    /* .icon-menu:hover.open,
     .icon-menu:focus.open {
       color: #ff7011;
       background: #ffffff;
-    }
+    } */
   
     .gmial {
       padding-left: 25px;
