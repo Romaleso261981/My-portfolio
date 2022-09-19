@@ -446,7 +446,11 @@
       transform: translateX(0);
     }
   
-    .icon-menu {
+    .icon-menu-burger {
+      background-image: url(../img/svg/burger.svg);
+      background-repeat: no-repeat;
+      align-items: center;
+      text-align: center;
       fill: red;
     }
   
