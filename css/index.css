@@ -447,7 +447,7 @@
     }
   
     .icon-menu {
-      fill: currentColor;
+      fill: red;
     }
   
     .icon-menu:hover,
@@ -472,8 +472,8 @@
       padding: 0;
       margin-right: 15px;
       margin-left: auto;
-      background-color: #1e2939;
-      color: #ffffff;
+      background-color: #ffffff;
+      fill: black;
       cursor: pointer;
     }
   
@@ -511,4 +511,14 @@
       margin-top: 40px;
     }
   }
+
+  .iconCloset {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  
   
