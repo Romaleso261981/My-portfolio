@@ -14,12 +14,12 @@ export const mainData: MainPropsType['mainData'] = [
       description:
          'Here are the main technologies I am proficient in (without various additional ones such as Sass, Git, etc.):',
       images: [
-         { id: 1, src: '@/public/images/html.svg' },
-         { id: 2, src: '@/public/images/css.svg' },
-         { id: 3, src: '@/public/images/javascript.svg' },
-         { id: 4, src: '@/public/images/react.svg' },
-         { id: 5, src: '@/public/images/nextjs.svg' },
-         { id: 6, src: '@/public/images/ts.svg' },
+         { id: 1, src: '/images/html.svg' },
+         { id: 2, src: '/images/css.svg' },
+         { id: 3, src: '/images/javascript.svg' },
+         { id: 4, src: '/images/react.svg' },
+         { id: 5, src: '/images/nextjs.svg' },
+         { id: 6, src: '/images/ts.svg' },
       ],
    },
    {
