@@ -8,7 +8,6 @@ import { SectionTitle } from '../UI/SectionTitle/SectionTitle'
 import s from './Main.module.css'
 
 export const Main = ({ mainData }: MainPropsType) => {
-   console.log(mainData[1])
 
    return (
       <main className={s.main}>
