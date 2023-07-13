@@ -1,0 +1,15 @@
+.mainContainer {
+   padding-top: calc(2.5rem + 16 * ((100vw - 320px) / (1280 - 320)));
+   padding-bottom: 6.5rem;
+   display: grid;
+   grid-template: auto / 47% 45%;
+   justify-content: space-between;
+   grid-gap: 3.75rem;
+}
+
+@media (max-width: 881px) {
+   .mainContainer {
+      display: flex;
+      flex-direction: column;
+   }
+}

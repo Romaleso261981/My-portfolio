@@ -1,0 +1,1 @@
+This app based on Next.js. It's my resume

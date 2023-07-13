@@ -1,0 +1,21 @@
+.list {
+	max-width: max-content;
+	display: grid;
+	grid-template: auto / 1fr 1fr 1fr;
+	gap: 0.5rem;
+	margin-top: calc(13px + 3 * ((100vw - 320px) / (1280 - 320)));
+}
+.listItem {
+	max-width: 6.875rem;
+}
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+@media (max-width: 881px) {
+	.listItem {
+		max-width: 5.3125rem;
+	}
+}
