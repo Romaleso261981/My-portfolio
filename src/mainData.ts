@@ -125,4 +125,27 @@ export const mainData: MainPropsType['mainData'] = [
          },
       ],
    },
+   {
+      id: 7,
+      title: 'EDUCATION',
+      description: 'Lviv State Agrarian University Automation Agriculture sector Mechanical engineer',
+      listItems: [
+         {
+            id: 1,
+            skill: 'Lviv State Agrarian University Automation Agriculture sector Mechanical engineer',
+         },
+         {
+            id: 2,
+            skill: 'Lemon.School Java Developer Desember 2021 - May 2021',
+         },
+         {
+            id: 3,
+            skill: 'Soft Serve Academy Inership for Front-End Developer May 2020 - August 2021',
+         },
+         {
+            id: 4,
+            skill: 'Lemon.School Java Developer Desember 2021 - May 2021',
+         },
+      ],
+   },
 ]

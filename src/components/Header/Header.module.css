@@ -31,7 +31,7 @@
 .title {
    font-size: calc(2rem + 27 * ((100vw - 320px) / (1280 - 320)));
    font-weight: 700;
-   max-width: min-content;
+   max-width: 600px;
    line-height: 0.9;
    letter-spacing: 0.0625rem;
 }

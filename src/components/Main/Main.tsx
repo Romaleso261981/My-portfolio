@@ -21,19 +21,28 @@ export const Main = ({ mainData }: MainPropsType) => {
                <SectionDescription>{mainData[1].description}</SectionDescription>
                <SectionImageBlock images={mainData[1].images} />
             </Section>
+
             <Section>
-               <SectionTitle>{mainData[2].title}</SectionTitle>
-               <SectionDescription>{mainData[2].description}</SectionDescription>
+               <SectionTitle>{mainData[6].title}</SectionTitle>
+               <SectionDescription>{mainData[6].description}</SectionDescription>
+               <SectionList listItems={mainData[6].listItems} />
             </Section>
+
             <Section>
                <SectionTitle>{mainData[3].title}</SectionTitle>
                <SectionDescription>{mainData[3].description}</SectionDescription>
+            </Section>
+
+            <Section>
+               <SectionTitle>{mainData[2].title}</SectionTitle>
+               <SectionDescription>{mainData[2].description}</SectionDescription>
             </Section>
             <Section>
                <SectionTitle>{mainData[4].title}</SectionTitle>
                <SectionDescription>{mainData[4].description}</SectionDescription>
                <SectionList listItems={mainData[4].listItems} />
             </Section>
+
             <Section>
                <SectionTitle>{mainData[5].title}</SectionTitle>
                <SectionProjectBlock sliderData={mainData[5].sliderData} />
