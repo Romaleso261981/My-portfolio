@@ -80,6 +80,21 @@ export const mainData: MainPropsType['mainData'] = [
             src: 'https://viacheslav-tykhovlis.github.io/petly-site/',
          },
          {
+            id: 2,
+            imageSrc: '/Petly.png',
+            projectTitle: 'Petly App',
+            projectDescription:
+               'Used of HTTP requests, mongodb database, express framework react, and nodeJS. The work is done independently.',
+            technologies: [
+               { id: 1, technology: 'JavaScript' },
+               { id: 2, technology: 'CSS' },
+               { id: 3, technology: ' Node.js' },
+               { id: 4, technology: ' MongoDB' },
+               { id: 5, technology: ' Express' },
+            ],
+            src: 'https://viacheslav-tykhovlis.github.io/petly-site/',
+         },
+         {
             id: 3,
             imageSrc: '/deshevakovka.png',
             projectTitle: 'deshevakovka.com',
