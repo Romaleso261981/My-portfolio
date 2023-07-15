@@ -30,7 +30,7 @@ export const mainData: MainPropsType['mainData'] = [
       id: 4,
       title: 'Work experience',
       description:
-         'I created websites: ladclimatservice.com.ua by using WordPress deshevakovka.com.ua by HTML5, CSS3, JavaScript(ES6+) remontonline.netlify.app by React, Redux, Node.js, Next.js, Express, MongoDB. The main task was to introduce new features and update the current code using modern technologies and stacks. Studied and used the stack React-Router, Redux-Toolkit, React Hooks, MongoDB, CRUD, AJAX, JSON, REST API and worked on the project ull time and overtime at home 3-5 hours a day. Attended stand-up calls with the team, discussion of project objectives, live coding, theory and test. Daily writing/debugging/improving code. Worked with Git, using GitHub.',
+         'I created websites: ladclimatservice.com.ua by using WordPress deshevakovka.com.ua by HTML5, CSS3, JavaScript(ES6+) remontonline.netlify.app by React, Redux, Node.js, Next.js, Express, MongoDB. The main task was to introduce new features and update the current code using modern technologies and stacks. Studied and used the stack React-Router, Redux-Toolkit, React Hooks, MongoDB, CRUD, AJAX, JSON, REST API and worked on the project ull time and overtime at home 3-5 hours a day.',
    },
    {
       id: 5,
