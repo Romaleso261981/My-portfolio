@@ -23,7 +23,6 @@ export const SectionProjectBlock = ({ sliderData }: SectionProjectBlockPropsType
          if (Math.abs(currentPos / sliderItemWidth) + 3 == slider.children.length) return
          currentPos -= sliderItemWidth
 
-         // if (Math.abs(currentPos / sliderItemWidth) + 3 == slider.children.length + 1) currentPos = 0
          slider.style.transform = `translate(${currentPos}px)`
 
       } else {
@@ -34,60 +33,12 @@ export const SectionProjectBlock = ({ sliderData }: SectionProjectBlockPropsType
             leftButton.style.borderColor = 'gray'
          }
          if (currentPos == 0) return
-         // if ((currentPos / sliderItemWidth) + 3 == slider.children.length - 1) {
-         //    e.currentTarget.style.borderColor = 'gray'
-         // }
          currentPos += sliderItemWidth
-
-         // if (currentPos == sliderItemWidth) currentPos = -((slider.children.length - 3) * sliderItemWidth)
 
          slider.style.transform = `translate(${currentPos}px)`
       }
    }
 
-   // const [isMouseDown, setIsMouseDown] = useState(false)
-   // const [distance, setDistance] = useState({ before: 0, after: 0 })
-   // let before = 0
-   // let after = 0
-
-   // function onMouseDownHandler(e) {
-   // 	setIsMouseDown(true)
-   // 	setDistance({ ...distance, before: e.clientX})
-   // 	// before = e.clientX
-   // }
-   // function onMouseMoveHandler(e) {
-   // 	if (isMouseDown) {
-   // 		console.log(e.clientX - distance.before)
-   // 		projectsContainer.current.style.transform = `translate(${e.clientX - distance.before}px)`
-   // 	}
-   // }
-   // function onMouseUpHandler(e) {
-   // 	setIsMouseDown(false)
-   // }
-   // function onTouchStartHandler(e) {
-   // 	setDistance({ ...distance, before: e.touches[0].clientX })
-   // }
-   // function onTouchMoveHandler(e) {
-   // 	projectsContainer.current.style.transform = `translate(${e.touches[0].clientX - distance.before}px)`
-   // 	console.log(e.touches[0].clientX)
-   // }
-
-   // console.log(sliderData[].technologies)
-
-   // function toggleDescriptionHeight(e: Event, isShow: boolean) {
-   // 	const parent = e.target.parentElement
-   // 	if (parent.offsetHeight == 53) {
-   // 		parent.style.maxHeight = 'none'
-   // 	} else {
-   // 		parent.style.maxHeight = '53px'
-   // 	}
-   // }
-   // const [test, setTest] = useState(true)
-   // function testFunc() {
-   // 	setTest(!test)
-   // }
-
-   // const test = 63
 
    return sliderData ? (
       <div className={s.mainWrapper}>
