@@ -19,7 +19,7 @@
 /* ========== Theme Switcher ========== */
 html[data-theme='light'] {
    color-scheme: light;
-   --general-background-c: 165, 245, 245;
+   --general-background-c: 255, 255, 255;
    --alpha-c: 20, 20, 20;
    --beta-c: 2, 74, 76;
    --gamma-c: 176, 120, 14;

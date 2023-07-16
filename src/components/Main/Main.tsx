@@ -16,11 +16,7 @@ export const Main = ({ mainData }: MainPropsType) => {
                <SectionTitle>{mainData[0].title}</SectionTitle>
                <SectionDescription>{mainData[0].description}</SectionDescription>
             </Section>
-            <Section>
-               <SectionTitle>{mainData[1].title}</SectionTitle>
-               <SectionDescription>{mainData[1].description}</SectionDescription>
-               <SectionImageBlock images={mainData[1].images} />
-            </Section>
+           
 
             <Section>
                <SectionTitle>{mainData[6].title}</SectionTitle>
