@@ -13,17 +13,15 @@ export const Main = ({ mainData }: MainPropsType) => {
       <main className={s.main}>
          <div className={s.mainContainer}>
             <Section>
-               <SectionTitle>{mainData[0].title}</SectionTitle>
-               <SectionDescription>{mainData[0].description}</SectionDescription>
-            </Section>
-           
-
-            <Section>
                <SectionTitle>{mainData[6].title}</SectionTitle>
                <SectionDescription>{mainData[6].description}</SectionDescription>
                <SectionList listItems={mainData[6].listItems} />
             </Section>
-
+            <Section>
+               <SectionTitle>{mainData[0].title}</SectionTitle>
+               <SectionDescription>{mainData[0].description}</SectionDescription>
+            </Section>
+                     
             <Section>
                <SectionTitle>{mainData[3].title}</SectionTitle>
                <SectionDescription>{mainData[3].description}</SectionDescription>
