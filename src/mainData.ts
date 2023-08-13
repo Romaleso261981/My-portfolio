@@ -109,6 +109,18 @@ export const mainData: MainPropsType["mainData"] = [
     ],
     src: "https://ladclimatservice.com.ua/",
    },
+   {
+    id: 5,
+    imageSrc: "/Ladclimatservice.png",
+    projectTitle: "adaptiv site",
+    projectDescription:
+     "The site is made on pure HTML, CSS and javascript libraries for selling air conditioners",
+    technologies: [
+     { id: 2, technology: "HTML" },
+     { id: 3, technology: "CSS" },
+    ],
+    src: "https://stunning-strudel-576147.netlify.app",
+   },
   ],
  },
  {
