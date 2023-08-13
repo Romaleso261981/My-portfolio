@@ -111,7 +111,7 @@ export const mainData: MainPropsType["mainData"] = [
    },
    {
     id: 5,
-    imageSrc: "/Ladclimatservice.png",
+    imageSrc: "/Bitmap.png",
     projectTitle: "adaptiv site",
     projectDescription:
      "The site is made on pure HTML, CSS and javascript libraries for selling air conditioners",
