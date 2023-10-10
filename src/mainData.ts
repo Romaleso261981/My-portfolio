@@ -118,6 +118,8 @@ export const mainData: MainPropsType["mainData"] = [
     technologies: [
      { id: 2, technology: "HTML" },
      { id: 3, technology: "CSS" },
+     { id: 4, technology: "Webpack" },
+     { id: 5, technology: "Babel" },
     ],
     src: "https://l-coffee-shop.netlify.app",
    },
@@ -130,6 +132,8 @@ export const mainData: MainPropsType["mainData"] = [
     technologies: [
      { id: 2, technology: "HTML" },
      { id: 3, technology: "CSS" },
+     { id: 4, technology: "Webpack" },
+     { id: 5, technology: "Babel" },
     ],
     src: "https://our-chat-app-two.vercel.app",
    },
@@ -142,6 +146,8 @@ export const mainData: MainPropsType["mainData"] = [
     technologies: [
      { id: 2, technology: "HTML" },
      { id: 3, technology: "CSS" },
+     { id: 4, technology: "Webpack" },
+     { id: 5, technology: "Babel" },
     ],
     src: "https://stunning-strudel-576147.netlify.app",
    },
