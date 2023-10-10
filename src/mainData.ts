@@ -151,6 +151,20 @@ export const mainData: MainPropsType["mainData"] = [
     ],
     src: "https://stunning-strudel-576147.netlify.app",
    },
+   {
+    id: 8,
+    imageSrc: "/Flovers-store.jpeg",
+    projectTitle: "adaptiv site",
+    projectDescription:
+     "The site is made on pure HTML, CSS and javascript libraries for selling air conditioners",
+    technologies: [
+     { id: 2, technology: "HTML" },
+     { id: 3, technology: "CSS" },
+     { id: 4, technology: "Webpack" },
+     { id: 5, technology: "Babel" },
+    ],
+    src: "https://flowers-goithop.netlify.app",
+   },
   ],
  },
  {
