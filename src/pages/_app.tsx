@@ -6,7 +6,7 @@ import FuturaPT from 'next/font/local'
 const FUTURA_PT = FuturaPT({
    src: [
       {
-         path: '../../public/fonts/FuturaPT-Book.woff2',
+         path: '../../public/fonts/LEMONMILK-Bold.otf',
          weight: '400',
          style: 'normal',
       },
@@ -16,7 +16,7 @@ const FUTURA_PT = FuturaPT({
          style: 'normal',
       },
       {
-         path: '../../public/fonts/FuturaPT-Bold.woff2',
+         path: '../../public/fonts/LEMONMILK-Bold.otf',
          weight: '700',
          style: 'normal',
       },
