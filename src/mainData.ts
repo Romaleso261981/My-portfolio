@@ -52,6 +52,20 @@ export const mainData: MainPropsType["mainData"] = [
   sliderData: [
    {
     id: 1,
+    imageSrc: "/Pizza-Stor.jpg",
+    projectTitle: "Pizza-Stor App",
+    projectDescription: "A small website for a pizza shop",
+    technologies: [
+     { id: 1, technology: "React" },
+     { id: 2, technology: "JavaScript" },
+     { id: 3, technology: " Node.js" },
+     { id: 4, technology: " MongoDB" },
+     { id: 5, technology: " Express" },
+    ],
+    src: "https://pizza-storr.netlify.app",
+   },
+   {
+    id: 1,
     imageSrc: "/Remontonline.png",
     projectTitle: "remontonline App",
     projectDescription: "Program for accounting of equipment in the workshop",
