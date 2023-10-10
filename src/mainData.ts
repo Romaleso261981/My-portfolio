@@ -111,6 +111,30 @@ export const mainData: MainPropsType["mainData"] = [
    },
    {
     id: 5,
+    imageSrc: "/Coffee-Shop.jpg",
+    projectTitle: "Coffee Shop",
+    projectDescription:
+     "The site is made on pure HTML, CSS and javascript libraries for selling coffee",
+    technologies: [
+     { id: 2, technology: "HTML" },
+     { id: 3, technology: "CSS" },
+    ],
+    src: "https://l-coffee-shop.netlify.app",
+   },
+   {
+    id: 6,
+    imageSrc: "/Our-Chat.jpg",
+    projectTitle: "Our-Chat-App",
+    projectDescription:
+     "The site is made on pure HTML, CSS and javascript",
+    technologies: [
+     { id: 2, technology: "HTML" },
+     { id: 3, technology: "CSS" },
+    ],
+    src: "https://our-chat-app-two.vercel.app",
+   },
+   {
+    id: 7,
     imageSrc: "/Bitmap.png",
     projectTitle: "adaptiv site",
     projectDescription:
