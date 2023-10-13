@@ -149,7 +149,7 @@ export const mainData: MainPropsType["mainData"] = [
      { id: 4, technology: "Webpack" },
      { id: 5, technology: "Babel" },
     ],
-    src: "https://our-chat-app-two.vercel.app",
+    src: "https://our-chat-my.netlify.app",
    },
    {
     id: 7,
