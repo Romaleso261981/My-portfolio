@@ -74,7 +74,7 @@ export const mainData: MainPropsType["mainData"] = [
         id: 1,
         imageSrc: "/Pizza-Stor.jpg",
         projectTitle: "Pizza-Stor App",
-        projectDescription: "A small website for a pizza shop",
+        projectDescription: "Невеличкий сайт для замовлення піци",
         technologies: [
           { id: 1, technology: "React" },
           { id: 2, technology: "JavaScript" },
@@ -88,7 +88,7 @@ export const mainData: MainPropsType["mainData"] = [
         id: 1,
         imageSrc: "/Remontonline.png",
         projectTitle: "remontonline App",
-        projectDescription: "Program for accounting of equipment in the workshop",
+        projectDescription: "Программа для внесення замовлень по ремонту",
         technologies: [
           { id: 1, technology: "React" },
           { id: 2, technology: "JavaScript" },
@@ -103,7 +103,7 @@ export const mainData: MainPropsType["mainData"] = [
         imageSrc: "/Petly.png",
         projectTitle: "Petly App",
         projectDescription:
-          "Used of HTTP requests, mongodb database, express framework react, and nodeJS. The work is done independently.",
+          "Використовуючи цю програму, ви можете знайти свого улюбленця, який буде відповідати вашим критеріям",
         technologies: [
           { id: 1, technology: "JavaScript" },
           { id: 2, technology: "CSS" },
@@ -118,7 +118,7 @@ export const mainData: MainPropsType["mainData"] = [
         imageSrc: "/deshevakovka.png",
         projectTitle: "deshevakovka.com",
         projectDescription:
-          "The site is made on pure HTML CSS for the sale of forged luxury gates",
+          "Сайт для продажу кованих виробів та металоконструкцій зробленна на HTML5, CSS3, JavaScript(ES6+)",
         technologies: [
           { id: 1, technology: "HTML5" },
           { id: 2, technology: " JavaScript(ES6+)" },
@@ -133,7 +133,7 @@ export const mainData: MainPropsType["mainData"] = [
         imageSrc: "/Ladclimatservice.png",
         projectTitle: "Ladclimatservice",
         projectDescription:
-          "The site is made on pure HTML, CSS and WordPress libraries for selling air conditioners",
+          "Сайт для продажу кондиціонерів та систем опалення зроблений за допомогою WordPress та плагінів",
         technologies: [
           { id: 1, technology: "WordPress" },
           { id: 2, technology: "HTML" },
@@ -148,7 +148,7 @@ export const mainData: MainPropsType["mainData"] = [
         imageSrc: "/Coffee-Shop.jpg",
         projectTitle: "Coffee Shop",
         projectDescription:
-          "The site is made on pure HTML, CSS and javascript libraries for selling coffee",
+          "Невеличкий сайт для замовлення кави зроблений на HTML5, CSS3, JavaScript(ES6+)",
         technologies: [
           { id: 2, technology: "HTML" },
           { id: 3, technology: "CSS" },
@@ -162,7 +162,7 @@ export const mainData: MainPropsType["mainData"] = [
         imageSrc: "/Our-Chat.jpg",
         projectTitle: "Our-Chat-App",
         projectDescription:
-          "The site is made on pure HTML, CSS and javascript",
+          "Чат де можна обмінюватися повідомленнями з іншими користувачами зроблений на Next.js, React, Redux, Node.js, Express, MongoDB. Для реалізації чату використовувався Socket.io",
         technologies: [
           { id: 2, technology: "HTML" },
           { id: 3, technology: "CSS" },
@@ -176,7 +176,7 @@ export const mainData: MainPropsType["mainData"] = [
         imageSrc: "/Bitmap.png",
         projectTitle: "adaptiv site",
         projectDescription:
-          "The site is made on pure HTML, CSS and javascript libraries for selling air conditioners",
+          "Лендінг сторінка  зроблена на HTML5, CSS3, JavaScript(ES6+) ",
         technologies: [
           { id: 2, technology: "HTML" },
           { id: 3, technology: "CSS" },
@@ -190,7 +190,7 @@ export const mainData: MainPropsType["mainData"] = [
         imageSrc: "/Flovers-store.jpeg",
         projectTitle: "adaptiv site",
         projectDescription:
-          "The site is made on pure HTML, CSS and javascript libraries for selling air conditioners",
+          "Інтернет магазин для замовлення квітів зроблений на HTML5, CSS3, JavaScript(ES6+)",
         technologies: [
           { id: 2, technology: "HTML" },
           { id: 3, technology: "CSS" },
@@ -219,7 +219,7 @@ export const mainData: MainPropsType["mainData"] = [
       {
         id: 3,
         skill:
-          "Soft Serve Academy Front-End Developer May 2020 - August 2021",
+          "Soft Serve Academy Front-End Developer Травень 2020 - Грудень 2020",
       },
       {
         id: 4,

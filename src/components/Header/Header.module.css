@@ -48,7 +48,7 @@
    letter-spacing: normal;
 }
 .description::before {
-   content: 'Frontend React Developer';
+   content: 'Fullstack Developer';
 }
 
 @media (max-width: 850px) {

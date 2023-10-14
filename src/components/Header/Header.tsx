@@ -11,7 +11,7 @@ export const Header = ({ children }: { children: ReactElement }) =>
             <Image className={s.image} src={myFoto} width={1862} height={1460} alt='My foto' priority={true} />
          </div>
          <div className={s.heroWrapper}>
-            <h1 className={s.title}>Roman Lesyo</h1>
+            <h1 className={s.title}>Лесьо Роман</h1>
             <span className={s.gorisontalLine}></span>
             <p className={s.description}></p>
          </div>
