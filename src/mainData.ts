@@ -203,27 +203,27 @@ export const mainData: MainPropsType["mainData"] = [
   },
   {
     id: 7,
-    title: "EDUCATION",
+    title: "Освіта",
     description:
-      "Lviv State Agrarian University Automation Agriculture sector Mechanical engineer",
+      "",
     listItems: [
       {
         id: 1,
         skill:
-          "Lviv State Agrarian University Automation Agriculture sector Mechanical engineer",
+          "Львівський Державний Аграрний університет Автоматизація сільськогосподарського виробництва Механік-інженер 2021 - 2025",
       },
       {
         id: 2,
-        skill: "Lemon.School Java Developer Desember 2021 - May 2021",
+        skill: "Lemon.School Java Developer Грудень 2021 - Травень 2021",
       },
       {
         id: 3,
         skill:
-          "Soft Serve Academy Inership for Front-End Developer May 2020 - August 2021",
+          "Soft Serve Academy Front-End Developer May 2020 - August 2021",
       },
       {
         id: 4,
-        skill: "Lemon.School Java Developer Desember 2021 - May 2021",
+        skill: "GOIT JavaScript Developer Лютий  2021 - Грудень 2022",
       },
     ],
   },
