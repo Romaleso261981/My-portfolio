@@ -47,10 +47,7 @@ export const mainData: MainPropsType["mainData"] = [
     title: "Soft skills",
     description: "Можу виділити наступне soft skills:",
     listItems: [
-      { id: 1, skill: "Чесність" },
       { id: 2, skill: "Комндна робота" },
-      { id: 3, skill: "Комунікабельність" },
-      { id: 4, skill: "Виконливість" },
       { id: 5, skill: "Надійність" },
       { id: 6, skill: "Управління часом" }
     ]
@@ -135,13 +132,11 @@ export const mainData: MainPropsType["mainData"] = [
         projectDescription:
           "Сайт для продажу кондиціонерів та систем опалення зроблений за допомогою WordPress та плагінів",
         technologies: [
-          { id: 1, technology: "WordPress" },
           { id: 2, technology: "HTML" },
           { id: 3, technology: "CSS" },
-          { id: 4, technology: "Webpack" },
-          { id: 5, technology: "Babel" }
+          { id: 4, technology: "Webpack" }
         ],
-        src: "https://ladclimatservice.com.ua/"
+        src: "https://www.ladclimatservice.com.ua/"
       },
       {
         id: 5,
@@ -151,9 +146,7 @@ export const mainData: MainPropsType["mainData"] = [
           "Невеличкий сайт для замовлення кави зроблений на HTML5, CSS3, JavaScript(ES6+)",
         technologies: [
           { id: 2, technology: "HTML" },
-          { id: 3, technology: "CSS" },
-          { id: 4, technology: "Webpack" },
-          { id: 5, technology: "Babel" }
+          { id: 3, technology: "CSS" }
         ],
         src: "https://l-coffee-shop.netlify.app"
       },
@@ -165,9 +158,7 @@ export const mainData: MainPropsType["mainData"] = [
           "Чат де можна обмінюватися повідомленнями з іншими користувачами зроблений на Next.js, React, Redux, Node.js, Express, MongoDB. Для реалізації чату використовувався Socket.io",
         technologies: [
           { id: 2, technology: "HTML" },
-          { id: 3, technology: "CSS" },
-          { id: 4, technology: "Webpack" },
-          { id: 5, technology: "Babel" }
+          { id: 3, technology: "CSS" }
         ],
         src: "https://our-chat-my.netlify.app"
       },
@@ -179,9 +170,7 @@ export const mainData: MainPropsType["mainData"] = [
           "Лендінг сторінка  зроблена на HTML5, CSS3, JavaScript(ES6+) ",
         technologies: [
           { id: 2, technology: "HTML" },
-          { id: 3, technology: "CSS" },
-          { id: 4, technology: "Webpack" },
-          { id: 5, technology: "Babel" }
+          { id: 3, technology: "CSS" }
         ],
         src: "https://stunning-strudel-576147.netlify.app"
       },
@@ -193,9 +182,7 @@ export const mainData: MainPropsType["mainData"] = [
           "Інтернет магазин для замовлення квітів зроблений на HTML5, CSS3, JavaScript(ES6+)",
         technologies: [
           { id: 2, technology: "HTML" },
-          { id: 3, technology: "CSS" },
-          { id: 4, technology: "Webpack" },
-          { id: 5, technology: "Babel" }
+          { id: 3, technology: "CSS" }
         ],
         src: "https://flowers-goithop.netlify.app"
       },
@@ -210,7 +197,19 @@ export const mainData: MainPropsType["mainData"] = [
           { id: 3, technology: "CSS" },
           { id: 4, technology: "JavaScript" }
         ],
-        src: "https://coffee-team-project-owner.vercel.app/"
+        src: "https://coffee-team-project-owner.vercel.app"
+      },
+      {
+        id: 10,
+        imageSrc: "/websaits.jpg",
+        projectTitle: "site-productions.com.ua",
+        projectDescription: "Лендінг по Виробництво та налагодження сайтів",
+        technologies: [
+          { id: 2, technology: "HTML" },
+          { id: 3, technology: "CSS" },
+          { id: 4, technology: "JavaScript" }
+        ],
+        src: "https://www.site-productions.com.ua"
       }
     ]
   },
@@ -219,15 +218,6 @@ export const mainData: MainPropsType["mainData"] = [
     title: "Освіта",
     description: "",
     listItems: [
-      {
-        id: 1,
-        skill:
-          "Львівський Державний Аграрний університет Автоматизація сільськогосподарського виробництва Механік-інженер 2021 - 2025"
-      },
-      {
-        id: 2,
-        skill: "Lemon.School Java Developer Грудень 2021 - Травень 2021"
-      },
       {
         id: 3,
         skill:
