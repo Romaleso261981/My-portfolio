@@ -119,11 +119,9 @@ export const mainData: MainPropsType["mainData"] = [
         technologies: [
           { id: 1, technology: "HTML5" },
           { id: 2, technology: " JavaScript(ES6+)" },
-          { id: 3, technology: "CSS3" },
-          { id: 4, technology: "Webpack" },
-          { id: 5, technology: "Babel" }
+          { id: 3, technology: "CSS3" }
         ],
-        src: "https://deshevakovka.com.ua/"
+        src: "https://www.deshevakovka.site/"
       },
       {
         id: 4,
@@ -133,8 +131,7 @@ export const mainData: MainPropsType["mainData"] = [
           "Сайт для продажу кондиціонерів та систем опалення зроблений за допомогою WordPress та плагінів",
         technologies: [
           { id: 2, technology: "HTML" },
-          { id: 3, technology: "CSS" },
-          { id: 4, technology: "Webpack" }
+          { id: 3, technology: "CSS" }
         ],
         src: "https://www.ladclimatservice.com.ua/"
       },
